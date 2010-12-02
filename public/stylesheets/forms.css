@@ -1,0 +1,10 @@
+/* Success, error & notice boxes for messages and errors. */
+.alert,
+.notice, 
+.success    { padding: .6em; border: 4px solid #ddd; }
+.alert      { background: #FBE3E4; color: #D12F19; border-color: #FBC2C4; cursor:pointer;}
+.notice     { background: #FFF6BF; color: #817134; border-color: #FFD324; }
+.success    { background: #E6EFC2; color: #529214; border-color: #C6D880; }
+.alert a    { color: #D12F19; }
+.notice a   { color: #817134; }
+.success a  { color: #529214; }

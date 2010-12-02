@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  description: MyText
+  rate: 9.99
+  billable: false
+
+two:
+  name: MyString
+  description: MyText
+  rate: 9.99
+  billable: false
