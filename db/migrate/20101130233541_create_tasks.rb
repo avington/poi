@@ -4,7 +4,7 @@ class CreateTasks < ActiveRecord::Migration
       t.string :name
       t.text :description
       t.decimal :rate
-      t.boolean :billable
+      t.boolean :billable, :default => 80.00, :length => 8, :precision => 2
 
       t.timestamps
     end

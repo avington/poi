@@ -1,12 +1,18 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
-one:
+admin:
   name: MyString
   description: MyText
   rate: 9.99
   billable: false
 
-two:
+development:
+  name: MyString
+  description: MyText
+  rate: 9.99
+  billable: false
+
+support:
   name: MyString
   description: MyText
   rate: 9.99

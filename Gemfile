@@ -14,6 +14,12 @@ gem "devise"
 group :testing do
   gem "rspec"
   gem "rspec-rails"
+  gem "autotest-standalone"
+  gem "autotest-rails"
+  gem "autotest-growl"
+  gem "mocha"
+  gem "shoulda"
+  gem "factory_girl_rails"
 end
 
 group :development do
