@@ -99,6 +99,12 @@
     </requirement>
     <requirement>
       <requirement>
+        <dependency name="test-unit" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="will_paginate" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
@@ -161,6 +167,9 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] rspec-mocks (v2.3.0, /Users/rob/.rvm/gems/ruby-1.9.2-p0@poi/gems/rspec-mocks-2.3.0)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] activesupport (v3.0.3, /Users/rob/.rvm/gems/ruby-1.9.2-p0@poi/gems/activesupport-3.0.3)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] factory_girl (v1.3.2, /Users/rob/.rvm/gems/ruby-1.9.2-p0@poi/gems/factory_girl-1.3.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] test-unit (v2.1.2, /Users/rob/.rvm/gems/ruby-1.9.2-p0@poi/gems/test-unit-2.1.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rspec-rails (v2.3.1, /Users/rob/.rvm/gems/ruby-1.9.2-p0@poi/gems/rspec-rails-2.3.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] haml (v3.0.25, /Users/rob/.rvm/gems/ruby-1.9.2-p0@poi/gems/haml-3.0.25)" level="application" />
   </component>
 </module>
 

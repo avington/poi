@@ -18,3 +18,11 @@ Factory.define :project do |f|
   f.association :client
 end
 
+Factory.define :user do |f|
+  f.sequence :email do |e|
+    "user#{e}@tekpub.com"
+  end
+  f.password "password"
+  f.password_confirmation "password"
+end
+
