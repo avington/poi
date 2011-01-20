@@ -2,7 +2,6 @@ Poi::Application.routes.draw do
   namespace :admin do resources :clients end
 
   devise_for :users
-
   resources :projects
   resources :clients
   resources :tasks

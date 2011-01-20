@@ -10,7 +10,10 @@ gem "haml"
 gem "formtastic"
 gem "will_paginate"
 gem "devise"
-
+gem "delayed_job"
+gem "whenever"
+gem "memcache-client"
+gem "capistrano"
 group :testing do
   gem "rspec"
   gem "rspec-rails"
@@ -24,6 +27,9 @@ end
 
 group :development do
   gem "cheat"
+  gem "bullet"
+  gem "ruby-growl"
+
 end
 
 # Use unicorn as the web server

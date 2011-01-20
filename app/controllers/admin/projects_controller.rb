@@ -1,6 +1,7 @@
 class Admin::ProjectsController < ApplicationController
 respond_to :html
 before_filter :get_project, :except => [:index,:create]
+cache_sweeper :project_sweeper
 
 def index
   @projects = Project.all

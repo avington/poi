@@ -1,5 +1,5 @@
 class Task < ActiveRecord::Base
-  belongs_to :project
+  has_and_belongs_to_many :projects
   validates_presence_of :name
   validates_presence_of :rate
   validates_numericality_of :rate
